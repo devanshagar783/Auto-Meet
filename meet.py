@@ -79,7 +79,7 @@ def openclass(index, timet):
     browser.minimize_window()
     browser.maximize_window()
     sleep(5)
-    pya.moveRel(200, 0, 1)
+    pya.moveRel(400, -200, 1)
     if (browser.find_element_by_css_selector(
             '#ow3 > div.T4LgNb > div > div:nth-child(4) > div.crqnQb > div.rG0ybd.LCXT6 > div.q2u11 > div.s1GInc.zCbbgf > div') is not None):
         browser.find_element_by_css_selector(
